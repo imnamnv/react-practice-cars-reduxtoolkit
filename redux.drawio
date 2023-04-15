@@ -1,0 +1,465 @@
+<mxfile host="65bd71144e">
+    <diagram id="iTMEYy05WgfwEC3BDYcf" name="Page-1">
+        <mxGraphModel dx="1673" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;font color=&quot;#000000&quot;&gt;Redux&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=21;container=0;fillColor=#99CCFF;gradientColor=none;swimlaneFillColor=#99CCFF;startSize=40;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="60" width="370" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="130" as="sourcePoint"/>
+                        <mxPoint x="60" y="180" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="180" y="160"/>
+                            <mxPoint x="65" y="160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" source="3" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="180" y="160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" source="3" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="180" y="160"/>
+                            <mxPoint x="305" y="160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="&lt;font color=&quot;#000000&quot;&gt;Dispatch Function&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#76608a;strokeColor=#432D57;" parent="2" vertex="1">
+                    <mxGeometry x="10" y="50" width="340" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" source="4" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="70" y="270"/>
+                            <mxPoint x="185" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="&lt;font color=&quot;#000000&quot;&gt;Reducer to manage a list of users&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#FFFF99;" parent="2" vertex="1">
+                    <mxGeometry x="10" y="180" width="110" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="edgeStyle=none;html=1;" parent="2" source="8" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font color=&quot;#000000&quot;&gt;Reducer to manage a list of videos&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#FFFF99;" parent="2" vertex="1">
+                    <mxGeometry x="130" y="180" width="110" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font color=&quot;#000000&quot;&gt;Reducer to manage a list of messages&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#FFFF99;" parent="2" vertex="1">
+                    <mxGeometry x="250" y="180" width="110" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font color=&quot;#000000&quot;&gt;State&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#FFFF99;" parent="2" vertex="1">
+                    <mxGeometry x="10" y="290" width="350" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2" source="9" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="290" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="305" y="270"/>
+                            <mxPoint x="185" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="18" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;font color=&quot;#000000&quot;&gt;Action&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="125" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;size=0.5;" parent="1" vertex="1">
+                    <mxGeometry x="630" y="230" width="20" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Mutiple reducers, each managing a different part of state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="225" width="80" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;" parent="1" source="22" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;font color=&quot;#000000&quot;&gt;What is Redux&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
+                    <mxGeometry x="-280" y="80" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;font color=&quot;#000000&quot;&gt;Redux is a library for managing state using the &lt;i&gt;same techniques&lt;/i&gt; as useReducer&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
+                    <mxGeometry x="-320" y="160" width="240" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;font color=&quot;#000000&quot;&gt;If we want to change state in any way, we must call dispatch!&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="80" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;font color=&quot;#000000&quot;&gt;Really good thing&lt;br&gt;Central point of changing state! Easy to understand why state is changing!&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="140" width="240" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;font color=&quot;#000000&quot;&gt;Not so great thing&lt;br&gt;We have to write out a lot of boilerplate code just to make sure the reducer knows what to do!&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="225" width="260" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;font color=&quot;#000000&quot;&gt;Option #1&lt;br&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=21;container=0;fillColor=#99CCFF;gradientColor=none;swimlaneFillColor=#99CCFF;startSize=40;" parent="1" vertex="1">
+                    <mxGeometry x="1080" y="30" width="240" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Library to make handling state easier" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="28" vertex="1">
+                    <mxGeometry x="15" y="90" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="edgeStyle=none;html=1;startArrow=classic;startFill=1;" parent="1" source="29" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;font color=&quot;#000000&quot;&gt;Redux&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#FFFF99;" parent="1" vertex="1">
+                    <mxGeometry x="1090" y="85" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="&lt;font color=&quot;#000000&quot;&gt;Your React App&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#FFFF99;" parent="1" vertex="1">
+                    <mxGeometry x="1220" y="85" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;font color=&quot;#000000&quot;&gt;Option #1&lt;br&gt;Use 'classic' Redux&lt;br&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=21;container=0;fillColor=#99CCFF;gradientColor=none;swimlaneFillColor=#99CCFF;startSize=90;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1350" y="30" width="190" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="This is the older style" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="36" vertex="1">
+                    <mxGeometry x="10" y="100" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;font color=&quot;#000000&quot;&gt;Option #1&lt;br&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=21;container=0;fillColor=#99CCFF;gradientColor=none;swimlaneFillColor=#99CCFF;startSize=40;" parent="1" vertex="1">
+                    <mxGeometry x="1080" y="240" width="360" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Library to make handling state easier" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="38" vertex="1">
+                    <mxGeometry x="15" y="90" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;font color=&quot;#000000&quot;&gt;Your React App&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#FFFF99;" parent="38" vertex="1">
+                    <mxGeometry x="260" y="55" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="Library to make working with Redux easier" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="38" vertex="1">
+                    <mxGeometry x="140" y="90" width="80" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="" style="edgeStyle=none;html=1;startArrow=classic;startFill=1;" parent="1" source="41" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;font color=&quot;#000000&quot;&gt;Redux&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#FFFF99;" parent="1" vertex="1">
+                    <mxGeometry x="1090" y="295" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="edgeStyle=none;html=1;fontColor=#000000;startArrow=classic;startFill=1;" parent="1" source="42" target="45" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;font color=&quot;#000000&quot;&gt;Redux toolkit&lt;br&gt;(RTK)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#FFFF99;" parent="1" vertex="1">
+                    <mxGeometry x="1220" y="295" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;font color=&quot;#000000&quot;&gt;Option #2&lt;br&gt;Use RTK&lt;br&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=21;container=0;fillColor=#99CCFF;gradientColor=none;swimlaneFillColor=#99CCFF;startSize=90;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1470" y="240" width="190" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="- RTK is a wrapper around plain Redux&lt;br&gt;- Specifically simplifies the action type creation process&lt;br&gt;- This is recommended way moving foward" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="43" vertex="1">
+                    <mxGeometry x="10" y="100" width="170" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;font color=&quot;#000000&quot;&gt;The store is an object that will hold all of our state&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="560" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;font color=&quot;#000000&quot;&gt;We usually do not have to interact with it directly. The 'React-Redux' library will handle the store for us&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
+                    <mxGeometry y="660" width="320" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="&lt;font color=&quot;#000000&quot;&gt;To dispatch an action&lt;br&gt;using store.dispatch&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
+                    <mxGeometry y="760" width="320" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&lt;font color=&quot;#000000&quot;&gt;To see what state exists in the store:&lt;br&gt;using getState()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
+                    <mxGeometry y="860" width="320" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="&lt;font color=&quot;#000000&quot;&gt;Slices automatically create reducers and action types&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="560" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="&lt;font color=&quot;#000000&quot;&gt;Slice&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#FFFF99;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="685" width="240" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="group;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="440" y="740" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="Defines some initial state" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="58" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="58" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="" style="group;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="440" y="785" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="Combines ''mini-reducers' into a big reducer" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="61" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="" style="edgeStyle=none;html=1;fontColor=#000000;startArrow=classic;startFill=1;" parent="61" source="63" target="62" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="61" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="group;fontColor=#000000;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="440" y="830" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Creates a set of 'action creator' functions" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="65" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="edgeStyle=none;html=1;fontColor=#000000;startArrow=classic;startFill=1;" parent="65" source="68" target="66" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="65" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="Connecting React to Redux" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="910" y="560" width="350" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="910" y="600" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="Export the 'store' from whatever file it is created in" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="71" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="71" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="910" y="640" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="Import the store into the root 'index.js' file" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="74" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="74" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="910" y="680" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="Import 'Provider' from the 'react-redux' library" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="77" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="77" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="910" y="720" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Wrap the App component with the Provider, pass the store to the Provider" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="80" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="4" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="80" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="Changing State" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="1340" y="560" width="350" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="1340" y="600" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="Add a reducer to one of your slices that changes state in some particular way&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="85" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="85" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="1340" y="640" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="Export the action creator that the slice automatically creates" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="88" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="88" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="1340" y="680" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="Find the component that you want to dispatch from" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="91" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="91" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="1340" y="720" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="Import the action creator function and 'useDispatch' from react-redux" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="94" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="4" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="94" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="1340" y="760" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="Call the 'useDispatch' hook to get access to the dispatch function" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="97" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="" style="edgeStyle=none;html=1;fontSize=20;fontColor=#FFFFFF;startArrow=classic;startFill=1;" parent="97" source="99" target="98" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="5" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="97" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="1340" y="800" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="When the user does something, call the action creator to get an action, then dispatch it" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="101" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="" style="edgeStyle=none;html=1;fontSize=20;fontColor=#FFFFFF;startArrow=classic;startFill=1;" parent="101" source="104" target="102" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="6" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="101" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="Accessing State" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="1780" y="560" width="350" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="1780" y="600" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="Find the component that needs to access some state" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="107" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="107" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="1780" y="640" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="Import the 'useSelector' hook from 'react-redux'" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="110" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="110" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="1780" y="680" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="Call the hook, passing in a selector function" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="113" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="113" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="1780" y="720" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="Use the state! Anytime state changes, the component will automatically rerender" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="116" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="4" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="116" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="&lt;font color=&quot;#000000&quot;&gt;Confusing thing!!!&lt;br&gt;Reducers in a slice only 'see' their own part of the overall state object&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+                    <mxGeometry x="2240" y="600" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="128" value="&lt;font color=&quot;#000000&quot;&gt;In a reducer, 'state' means 'the state I'm in control of'&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+                    <mxGeometry x="2240" y="695" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="129" value="&lt;font color=&quot;#000000&quot;&gt;Everywhere else, 'state' means 'the whole state object in the store'&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fillColor=#fad9d5;strokeColor=#ae4132;" parent="1" vertex="1">
+                    <mxGeometry x="2240" y="790" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="130" value="Ideals to Reset Both List (Multi state update)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="2590" y="560" width="430" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="131" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="2590" y="600" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="132" value="Dispatch two separate actions (Fine, but we want minimun dispatch)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="131" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="131" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="134" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="2590" y="640" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="Get the songsSlice to &lt;i&gt;watch&lt;/i&gt; for the existing reset action" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="134" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="134" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="" style="group;fontSize=20;fontColor=#FFFFFF;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="2590" y="680" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="Create a new, standalone reset action and get both slices to &lt;i&gt;watch&lt;/i&gt; for it" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" parent="137" vertex="1">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" parent="137" vertex="1">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="" style="edgeStyle=none;html=1;fontSize=20;fontColor=#FFFFFF;startArrow=classic;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="135" target="145" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="3150" y="655" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="151" value="" style="edgeStyle=none;html=1;fontSize=20;fontColor=#000000;startArrow=classic;startFill=1;" parent="1" source="145" target="150" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="&lt;font color=&quot;#000000&quot;&gt;in createSlice&lt;br&gt;extraReducer(builder){&lt;br&gt;builder.addCase(&quot;movie/reset&quot;,(state,action)=&amp;gt;{&lt;br&gt;return [];&lt;br&gt;})&lt;br&gt;}&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
+                    <mxGeometry x="3080" y="580" width="370" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="" style="edgeStyle=none;html=1;fontSize=20;fontColor=#FFFFFF;startArrow=classic;startFill=1;" parent="1" source="147" target="148" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="&lt;font color=&quot;#000000&quot;&gt;Action flow&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#FFFF99;" parent="1" vertex="1">
+                    <mxGeometry x="3020" y="467.5" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="&lt;font color=&quot;#000000&quot;&gt;when an action is dispatched, it is sent to &quot;every&quot; reducer in the store&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFF99;fontColor=#FFFFFF;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="3220" y="405" width="230" height="155" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="&lt;font color=&quot;#000000&quot;&gt;We will have error when change name of &quot;reset&quot; reducer in movie&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;rounded=0;fontSize=20;strokeColor=#b46504;" parent="1" vertex="1">
+                    <mxGeometry x="3500" y="615" width="230" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="&lt;font color=&quot;#000000&quot;&gt;Get both reducer to what for an action of &quot;app/reset&quot; by create manual action&lt;br&gt;const reset = createAction(&quot;app/reset&quot;);&lt;br&gt;use by push in extra with case: builder.addCase(reset,....)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" parent="1" vertex="1">
+                    <mxGeometry x="2600" y="760" width="360" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="Redux Store Design" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="-270" y="1070" width="350" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="" style="group;fontSize=20;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-270" y="1110" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="Identify what state exists in the app" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="154">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" vertex="1" parent="154">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="" style="group;fontSize=20;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-270" y="1150" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="158" value="Identify how that state changes over time" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="157">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" vertex="1" parent="157">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="" style="group;fontSize=20;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-270" y="1190" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="161" value="Group together common pieces of state" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="160">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="162" value="3" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" vertex="1" parent="160">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="163" value="" style="group;fontSize=20;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="-270" y="1230" width="370" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="164" value="Create a slice for each group" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="163">
+                    <mxGeometry x="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="165" value="4" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;fillColor=#99CCFF;" vertex="1" parent="163">
+                    <mxGeometry width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="166" value="&lt;font color=&quot;#000000&quot;&gt;Derived State&lt;br&gt;Values that we can calculate using existing state&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="1040" width="280" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="167" target="168">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="167" value="&lt;font color=&quot;#000000&quot;&gt;cars&lt;br&gt;array of {id, name, cost}&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#FFFF99;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="1120" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="168" value="&lt;font color=&quot;#000000&quot;&gt;totalCost&lt;br&gt;number&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#FFFF99;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="1120" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="170" value="sum of costs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="1110" width="100" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
